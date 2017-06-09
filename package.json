@@ -1,0 +1,18 @@
+{
+  "name": "node-token-authentication",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.7.3",
+    "morgan": "^1.7.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "This repo uses JSON Web Tokens and the [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) package to implement token based authentication on a simple Node.js API.",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC"
+}
